@@ -153,3 +153,108 @@ header {
     display: flex;
     align-items: center;
 }
+
+
+/* For tablets */
+@media screen and (max-width: 1024px) {
+    header {
+      padding: 1.5rem 4rem;
+    }
+    
+    .home {
+      padding: 2rem 2rem 0 8rem;
+    }
+    
+    .scroll-btn {
+      left: 5%;
+    }
+  }
+  
+  /* For mobile phones */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 1rem 2rem;
+      flex-direction: column;
+    }
+    
+    .logo {
+      margin-bottom: 1rem;
+    }
+    
+    .navmenu {
+      width: 100%;
+      justify-content: space-around;
+    }
+    
+    .navmenu a {
+      margin: 0 0.5rem;
+      font-size: 0.9rem;
+    }
+    
+    .home {
+      grid-template-columns: 1fr;
+      padding: 8rem 2rem 2rem 2rem;
+      height: auto;
+      text-align: center;
+    }
+    
+    .home-img {
+      order: -1;
+      margin-bottom: 2rem;
+    }
+    
+    .home-img img {
+      width: 50%;
+    }
+    
+    .home-text h3 {
+      padding-left: 0;
+      margin: 0 auto 1rem auto;
+    }
+    
+    .home-text h3::before {
+      display: none;
+    }
+    
+    .home-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    .socials-icons {
+      position: static;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+    }
+    
+    .socials-icons i {
+      margin: 0 1rem;
+    }
+    
+    .scroll-btn {
+      position: static;
+      justify-content: center;
+      margin: 2rem auto;
+    }
+    
+    /* For the dynamically created sections */
+    #about-section, #hobbies-section, #contact-section {
+      padding: 8rem 2rem 2rem 2rem !important;
+      height: auto !important;
+      min-height: 100vh;
+    }
+  }
+  
+  /* For smaller mobile phones */
+  @media screen and (max-width: 480px) {
+    .home-text h2 {
+      font-size: 2rem;
+    }
+    
+    .navmenu a {
+      font-size: 0.8rem;
+    }
+  }
