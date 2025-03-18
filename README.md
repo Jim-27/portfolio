@@ -13,16 +13,16 @@ This portfolio website is designed using **Flexbox** and **CSS Grid** to create 
   - `@media (max-width: 480px)`: Stacks elements vertically for better mobile readability.
 - **Flexible Images & Text**: Ensures content scales properly on all devices.
 
+## Deployment
+This project is hosted on **GitHub Pages** / **Vercel**:
+🔗 [Live Demo](https://jim-27.github.io/portfolio/)
+
 ## Screenshots
 ### Desktop View:
 ![Desktop View](images/desktop-screenshot.png)
 
 ### Mobile View:
 ![Mobile View](images/mobile-screenshot.png)
-
-## Deployment
-This project is hosted on **GitHub Pages** / **Vercel**:
-🔗 [Live Demo](your-live-demo-link-here)
 
 ## Testing & Validation
 - Tested responsiveness using **Chrome DevTools**.
